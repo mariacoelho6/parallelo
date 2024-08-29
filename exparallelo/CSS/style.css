@@ -1,0 +1,29 @@
+nav ul{
+    display: flex;
+    flex-direction: row; 
+    margin: 0;
+    
+}
+nav ul li{
+    list-style: none; /*retira as bolinhas da listagem*/
+    
+    padding: 50px 35px; 
+    
+}
+nav  ul li:hover{
+    background: #444444;
+}
+nav{
+    height: 125px;
+    max-width: 1420px;
+    min-width: 1080px;
+    background-color: black;
+}
+nav #logo img{
+    height: 75px;
+    margin: 25px;
+    float: left;
+}
+nav #main-menu{
+    float: right;
+}
