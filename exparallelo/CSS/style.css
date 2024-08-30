@@ -1,3 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+nav{
+
+    position: absolute;
+    top: 15px;
+    height: 125px;
+    width: 100%;
+    min-width: 1080px;
+    background-color: black;
+}
+nav #main-menu-geral{
+    max-width:1480;
+    margin: 0 auto;
+}
+
 nav ul{
     display: flex;
     flex-direction: row; 
@@ -11,19 +32,47 @@ nav ul li{
     
 }
 nav  ul li:hover{
-    background: #444444;
+    background: #575353;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    padding: 53px 25px 53px 0px;
+
 }
 nav{
     height: 125px;
-    max-width: 1420px;
+    max-width: 100%;
     min-width: 1080px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 nav #logo img{
     height: 75px;
     margin: 25px;
     float: left;
 }
+
+nav ul li a:hover{
+    text-decoration: line-through;
+    color:rgb(231, 169, 32);
+    text-decoration: line-through; 
+    transition: all 1s;
+}
+nav ul li span{
+    font-size: 11px;
+    color: #a09c9c;
+    margin: 58px 3px 53px 25px;
+    float:left;
+}
 nav #main-menu{
     float: right;
+}
+.montserrat, nav ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
